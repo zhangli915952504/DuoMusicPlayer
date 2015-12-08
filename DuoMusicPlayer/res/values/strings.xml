@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Duo音乐Player</string>
+    <string name="action_settings">设置</string>
+    <string name="action_search">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="gain_left_caps">GAIN (L)</string>
+    <string name="gain_right_caps">GAIN (R)</string>
+    <string name="load_preset_caps">加载预设</string>
+    <string name="save_preset_caps">保存预置</string>
+    <string name="apply_to_caps">APPLY TO</string>
+    <string name="load_preset">加载预设</string>
+    <string name="save_preset">保存预置</string>
+    <string name="apply_to">Apply to</string>
+    <string name="title_activity_song_browser">Jams</string>
+    <string name="artists">艺术家</string>
+    <string name="albums">专辑</string>
+    <string name="songs">全部音乐</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="settings">设置</string>
+    <string name="search">搜索</string>
+    <string name="search_artists">Search Artists</string>
+    <string name="search_albums">Search Albums</string>
+    <string name="search_songs">Search Songs</string>
+    <string name="playlists">播放列表</string>
+    <string name="search_playlists">Search Playlists</string>
+    <string name="artists_caps">ARTISTS</string>
+    <string name="albums_caps">ALBUMS</string>
+    <string name="songs_caps">SONGS</string>
+    <string name="playlists_caps">PLAYLISTS</string>
+    <string name="settings_caps">SETTINGS</string>
+    <string name="play_all">播放全部</string>
+    <string name="pin">Pin</string>
+    <string name="master_volume_caps">MASTER VOLUME</string>
+    <string name="equalizer_caps">EQUALIZER</string>
+    <string name="audio_effects_caps">AUDIO FX</string>
+    <string name="virtualizer_caps">仿真器</string>
+    <string name="bass_boost_caps">低音增强</string>
+    <string name="reverb_caps">混响效果:</string>
+    <string name="now_playing_caps">NOW PLAYING</string>
+    <string name="cover_art_style_description">选择的封面即是在屏幕上显示的。</string>
+
+    <string-array name="settings_titles">
+        <item>应用程序的主题</item>
+        <item>正在使用的配色方案</item>
+        <item>自定义页面</item>
+        <item>封面样式</item>
+        <item>自动获取专辑封面</item>
+        <item>音乐文件夹</item>
+        <item>重新扫描音乐文件夹</item>
+        <item>扫描频率</item>
+        <item>许可证</item>
+        <item>联系我们</item>
+    </string-array>
+    <string-array name="settings_descriptions">
+        <item>选择一个白天或夜间主题为整个应用程序使用。</item>
+        <item>选择配色方案正在屏幕和回放控制。</item>
+        <item>重新排列的程序的页面顺序。</item>
+        <item>Customize the way cover art is displayed on the Now Playing screen.</item>
+        <item>Pick whether you want to use the album art fetching service or display embedded art.</item>
+        <item>Choose the folders that contain your music. Files in other folders will be ignored.</item>
+        <item>Rescan your music folders to update your music library.</item>
+        <item>Set how often your want your music folders to be scanned for new files.</item>
+        <item>Legal jingo about the app and its components.</item>
+        <item>Spot a bug, have a feature request, or can\'t figure something out? We\'re here to help.</item>
+    </string-array>
+
+    <string name="title_activity_settings_detail">SettingsDetailActivity</string>
+    <string name="app_theme">主题</string>
+    <string name="now_playing_color_scheme">Color Accent</string>
+
+    <string-array name="app_theme_choices">
+        <item>白色调</item>
+        <item>黑色调</item>
+    </string-array>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string-array name="now_playing_color_schemes">
+        <item>白色</item>
+        <item>灰色</item>
+        <item>蓝色</item>
+        <item>红色</item>
+        <item>绿色</item>
+        <item>橙色</item>
+        <item>紫色</item>
+        <item>洋红色</item>
+        <item>黑色</item>
+    </string-array>
+
+    <string name="folders_caps">FOLDERS</string>
+    <string name="licenses">Licenses</string>
+    <string name="oxygen_icons_license_description">This application uses one or more icons from the Oxygen Icon Theme, which is not affliated with this app in any way. The icons are distributed under the Creative Commons 3.0 ShareALike License. A copy of the license can be obtained here: </string>
+    <string name="invalid_file_message"> doesn\'t seem to be an audio file. Check to make sure that the file extension is set properly.</string>
+    <string name="error">Error</string>
+    <string name="changes_saved">保存设置</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="genres_caps">GENRES</string>
+    <string name="building_music_library">创建音乐库</string>
+    <string name="welcome_text_1">感谢您下载Duo音乐Player,下面将帮助您使用应用程序,请向左滑动屏幕。</string>
+    <string name="next">Next</string>
+    <string name="done">取消</string>
+    <string name="welcome_text_2">在接下来的对话框中,您将看到您有权访问的文件夹列表。选择文件夹包含音乐,您想添加到您的目录下。</string>
+    <string name="welcome">欢迎</string>
+    <string name="welcome_text_3">在接下来的对话框中,选择您想要多久您的文件夹自动重新扫描。更高的扫描频率意味着您可能需要等待几分钟才能开始使用这个应用。低扫描频率意味着您可能需要手动重新扫描您的文件夹添加新的音乐。</string>
+    <string name="welcome_text_4">如果您经常变化的音乐在你的设备上,那么在接下来的对话框选择一个更高的扫描频率。这意味着你的音乐库将保持尽可能的更新,但是你可能需要等待几分钟才能使用应用程序。如果经常不会改变你的音乐库,选择扫描频率较低。</string>
+    <string name="welcome_text_5">记住,您总是可以手动扫描的新音乐将设置页面一旦应用程序设置。</string>
+    <string name="scan_frequency">Scan Frequency</string>
+
+    <string-array name="scan_frequency_choices">
+        <item>Scan at every startup</item>
+        <item>Scan every 3 startups</item>
+        <item>Scan every 5 startups</item>
+        <item>Scan every 10 startups</item>
+        <item>Scan every 20 startups</item>
+        <item>Scan manually</item>
+    </string-array>
+
+    <string name="welcome_text_6">现在将扫描您的文件夹和播放列表,并首次建立您的音乐库。这比任何后续扫描将需要更长的时间来完成扫描,所以请耐心等待,不要关闭应用程序的运行时。</string>
+    <string name="finish">完成</string>
+    <string name="song_actions">Song Actions</string>
+    <string name="view_song_info">View Song Information</string>
+    <string name="edit_song_tags">Edit Song Tags</string>
+    <string name="blacklist_song">Blacklist Song</string>
+    <string name="title">标题:</string>
+    <string name="artist">艺术家:</string>
+    <string name="album">专辑:</string>
+    <string name="genre">流派:</string>
+    <string name="year">年份:</string>
+    <string name="album_artist">专辑的艺术家:</string>
+    <string name="composer">作曲家:</string>
+    <string name="producer">制片人:</string>
+    <string name="comments">备注: </string>
+    <string name="track">月:</string>
+    <string name="of">日</string>
+    <string name="file_could_not_be_opened">The file could not be opened. Try rescanning your library.</string>
+    <string name="restart_app">Restart App</string>
+    <string name="restart">Restart</string>
+    <string name="rescan_folders_prompt">Duo Music Player needs to rescan your music folders to fully update your music library with the new song tags. Using the app without rescanning may cause stability issues while accessing songs that you just edited. Touch \'Rescan\' to continue.</string>
+    <string name="rescan">Rescan</string>
+    <string name="updating_song_info">Updating Song Information</string>
+    <string name="refreshing_library">Refreshing Library</string>
+    <string name="rescan_prompt">Your music library needs to be rescanned to display the updated song tags. If you want to edit more tags, you can update after you\'re done editing all your tags. Tap on the \'Rescan Required\' banner at the bottom of your screen once you\'re ready. \n \nTo prevent potential problems, music playback will be disabled until you rescan your library.</string>
+    <string name="rescan_required_caps">RESCAN REQUIRED</string>
+    <string name="tap_here_to_rescan">Tap here to rescan your library.</string>
+    <string name="rescan_required_message">你必须重新扫描你的音乐库才能播放音乐，点击屏幕底部的按钮重新扫描。</string>
+    <string name="caution">警告</string>
+    <string name="caution_albums_text">编辑这张专辑的标签将导致专辑每首歌全部改变了标签，你确定你想要继续吗?</string>
+    <string name="caution_artists_text">编辑这张专辑的标签将导致专辑每首歌全部改变了标签，你确定你想要继续吗?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="varies_by_song">Varies by Song</string>
+    <string name="edit_tags">编辑标签</string>
+    <string name="view_album_info">View Album Information</string>
+    <string name="edit_album_tags">Edit Album Tags</string>
+    <string name="blacklist_album">Blacklist Album</string>
+    <string name="album_actions">Album Actions</string>
+    <string name="artist_actions">Artist Actions</string>
+    <string name="view_artist_info">View Artist Information</string>
+    <string name="edit_artist_tags">编辑艺术家标签</string>
+    <string name="blacklist_artist">艺术家黑名单</string>
+    <string name="add_to_queue">添加到列表</string>
+
+    <string-array name="artists_context_menu_items">
+        <item>Edit Artist Tags</item>
+        <item>Add to Queue</item>
+        <item>Add to Playlist</item>
+        <item>blacklist artist</item>
+    </string-array>
+    <string-array name="songs_context_menu_items">
+        <item>Edit Song Tags</item>
+        <item>Add to Queue</item>
+        <item>Add to Playlist</item>
+        <item>Blacklist Song</item>
+    </string-array>
+    <string-array name="albums_context_menu_items">
+        <item>Edit Album Tags</item>
+        <item>Add to Queue</item>
+        <item>Add To Playlist</item>
+        <item>Get Album Art</item>
+        <item>Remove Album Art</item>
+        <item>Blacklist Album</item>
+    </string-array>
+    <string-array name="album_artists_context_menu_items">
+        <item>Add to Queue</item>
+        <item>Add to Playlist</item>
+    </string-array>
+
+    <string name="remove_album_art">Remove Album Art</string>
+    <string name="get_album_art">Get Album Art</string>
+    <string name="save">保存</string>
+    <string name="error_occurred_tags">An error occurred while saving your tags. Try rescanning your library.</string>
+    <string name="edit">菜单</string>
+    <string name="album_art_not_found">Album art could not be found for this album.</string>
+    <string name="dont_show_again">不再显示此信息</string>
+    <string name="customize_screens_text">Drag items in the screens list to rearrange their order.</string>
+    <string name="customize_screens">Customize Screens</string>
+    <string name="now_playing_queue">Now Playing Queue</string>
+    <string name="album_doesnt_have_artwork">This album doesn\'t have any artwork.</string>
+    <string name="album_art_deleted">Album artwork deleted.</string>
+
+    <string-array name="cover_art_style_choices">
+        <item>Card Style with Reflection</item>
+        <item>Fill Screen</item>
+    </string-array>
+
+    <string name="cover_art_style">封面样式</string>
+    <string name="downloading_missing_cover_art">Downloading missing cover art.</string>
+    <string name="song_file_path">songFilePath</string>
+    <string name="up_next_caps">UP NEXT:</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_artists_flipped">Artists Flipped Activity</string>
+    <string name="title_activity_album_artists_flipped">Album Artists Flipped Activity</string>
+    <string name="title_activity_artists_flipped_songs">Artists Flipped Songs</string>
+    <string name="title_activity_albums_flipped">Albums Flipped Activity</string>
+    <string name="no_artists_found">No artists found.</string>
+    <string name="no_albums_found">No albums found.</string>
+    <string name="no_songs_found">No songs found.</string>
+    <string name="bitrate">Bitrate:</string>
+    <string name="add_new_playlist">Add New Playlist</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="add_songs_to_playlist_info">To add items to this playlist, long press on an artist,  album, song or genre and tap \'Add to Playlist\'.</string>
+    <string name="playlist_already_exists">This playlist already exists. Choose another name.</string>
+    <string name="playlist_created">Playlist created.</string>
+    <string name="playlist_could_not_be_created">The playlist could not be created.</string>
+    <string name="select_playlist">Select Playlist</string>
+
+    <string-array name="add_to_playlist_array">
+        <item>新播放列表</item>
+        <item>现有的播放列表</item>
+    </string-array>
+    <string-array name="playlist_type_array">
+        <item>本地播放器列表</item>
+        <item>谷歌音乐播放器列表</item>
+    </string-array>
+
+    <string name="add_to_playlist">添加到播放列表</string>
+    <string name="no_songs_in_album">This album is empty. Try rescanning your music library to fix this issue.</string>
+    <string name="no_albums_by_artist">This artist doesn\'t have any albums. Try rescanning your library to fix this issue.</string>
+    <string name="customization">Customization</string>
+    <string name="application_theme">应用程序的主题</string>
+    <string name="application_theme_summary">Base theme for the entire app.</string>
+    <string name="player_color_scheme">色彩配置</string>
+    <string name="player_color_scheme_summary">Color for the music player.</string>
+    <string name="main_screen_pages">Main Screen Pages</string>
+    <string name="main_screen_pages_summary">Customize the order of the main screen pages.</string>
+    <string name="album_art">专辑封面</string>
+    <string name="album_art_style">Album Art Style</string>
+    <string name="album_art_style_summary">Customize the album art style in the player.</string>
+    <string name="album_art_sources">Album Art Source</string>
+    <string name="album_art_sources_summary">Pick where album art should be retrieved from.</string>
+    <string name="folders">文件夹</string>
+    <string name="select_folders">Select Music Folders</string>
+    <string name="select_folders_summary">Choose your music/playlist folders.</string>
+    <string name="rescan_folders">Rescan Folders</string>
+    <string name="rescan_folders_summary">Update your music/playlist library.</string>
+    <string name="scan_frequency_summary">Set how often the music/playlist folders should be scanned.</string>
+    <string name="licenses_and_about">许可证和相关</string>
+    <string name="licenses_summary">Legal jingo about the app.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_us_summary">Send us your comments, bug reports and feature requests.</string>
+    <string name="search_genres">Search Genres</string>
+    <string name="duration">Duration</string>
+    <string name="playlists_save_format">Playlists Save Format</string>
+    <string name="playlists_save_location">Playlists Save Location</string>
+    <string name="no_playlists_available">No playlists found. Try creating a new playlist.</string>
+    <string name="playlist_saved">Playlist saved.</string>
+    <string name="invalid_playlist">Invalid playlist. Try rescanning your library.</string>
+    <string name="title_activity_playlists_flipped">Playlists</string>
+    <string name="playlist_not_found">Playlist not found. Try rescanning your library.</string>
+    <string name="playlist_could_not_be_read">The playlist could not be read. Try rebooting your device or rescanning your library.</string>
+    <string name="playlist_file_path">Playlist File Path</string>
+    <string name="holder">holder</string>
+    <string name="playlist_folder_path">playlist_folder_path</string>
+    <string name="playlist_actions">Playlist Actions</string>
+
+    <string-array name="playlists_context_menu_items">
+        <item>Add to Queue</item>
+        <item>删除播放列表</item>
+    </string-array>
+
+    <string name="delete_playlist_warning">你确定你要删除这个播放列表？</string>
+    <string name="warning">Warning</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="delete">Delete</string>
+    <string name="playlist_blacklisted">Playlist blacklisted.</string>
+    <string name="playlist_could_not_be_blacklisted">Playlist could not be blacklisted.</string>
+    <string name="playlist_deleted">Playlist deleted.</string>
+    <string name="playlist_could_not_be_deleted">Playlist could not be deleted.</string>
+    <string name="playlist_cannot_be_deleted">This playlist cannot be deleted.</string>
+    <string name="rename_playlist_info">Type in a new name for the playlist.</string>
+    <string name="playlist_renamed">Playlist renamed.</string>
+    <string name="playlist_name_caps">PLAYLIST NAME:</string>
+    <string name="playlist_format_caps">PLAYLIST FORMAT:</string>
+    <string name="playlist_location_caps">PLAYLIST LOCATION:</string>
+    <string name="number_of_songs_caps">NUMBER OF SONGS:</string>
+    <string name="last_modified_caps">LAST MODIFIED: </string>
+    <string name="added_to_library_caps">ADDED TO LIBRARY:</string>
+    <string name="created_caps">CREATED:</string>
+    <string name="rename_playlist">Rename Playlist</string>
+    <string name="songs_enqueued_toast">songs added to queue.</string>
+    <string name="song_enqueued_toast">song added to queue.</string>
+    <string name="now_playing_queue_caps">NOW PLAYING QUEUE</string>
+    <string name="rotate_device_to_go_back">Rotate your device to portrait mode to go back to the previous screen.</string>
+    <string name="error_queuing_playlist">The playlist could not be queued. Check if the songs in the playlist are valid.</string>
+    <string name="artist_could_not_be_blacklisted">The artist could not be blacklisted.</string>
+    <string name="artist_blacklisted">Artist blacklisted.</string>
+    <string name="album_blacklisted">Album blacklisted.</string>
+    <string name="album_could_not_be_blacklisted">The album could not be blacklisted.</string>
+    <string name="song_blacklisted">Song blacklisted.</string>
+    <string name="song_could_not_be_blacklisted">The song could not be blacklisted.</string>
+    <string name="music_folders">Music Folders</string>
+    <string name="blacklists">黑名单</string>
+    <string name="manage_blacklisted_artists">Manage Blacklisted Artists</string>
+    <string name="manage_blacklisted_albums">Manage Blacklisted Albums</string>
+    <string name="manage_blacklisted_songs">Manage Blacklisted Songs</string>
+    <string name="manage_blacklisted_playlists">Manage Blacklisted Playlists</string>
+    <string name="manage_blacklisted_genres">Manage Blacklisted Genres</string>
+    <string name="equalizer_could_not_be_initialized">The equalizer could not be initalized. Try restarting your device.</string>
+    <string name="song_index">song_index</string>
+
+    <string-array name="apply_equalizer_to_array">
+        <item>Current song</item>
+        <item>All songs</item>
+        <item>An artist</item>
+        <item>An album</item>
+        <item>A genre</item>
+    </string-array>
+
+    <string name="artist_doesnt_have_any_songs">This artist doesn\'t have any songs.</string>
+    <string name="equalizer_applied_to_songs_by">Equalizer applied to all songs by</string>
+    <string name="equalizer_applied_to_songs_in">Equalizer applied to all songs in</string>
+    <string name="equalizer_applied_to_all_songs">Equalizer applied to all songs.</string>
+    <string name="album_doesnt_have_any_songs">This album doesn\'t have any songs.</string>
+    <string name="applying_equalizer_to_all_songs">Applying equalizer to all songs...</string>
+    <string name="applying_to">Applying to</string>
+    <string name="applying_equalizer_to">Applying Equalizer to</string>
+    <string name="error_occurred">An error occurred.</string>
+    <string name="enter_playlist_name">Enter playlist name:</string>
+    <string name="enter_preset_name">Enter preset name:</string>
+    <string name="preset_name">预设的名字</string>
+    <string name="new_eq_preset">New Equalizer Preset</string>
+    <string name="preset_saved">Preset saved.</string>
+    <string name="run_in_background">Run In Background</string>
+
+    <string-array name="folder_view_context_menu_items">
+        <item>Play Folder</item>
+        <item>Play Folder Recursively</item>
+        <item>Copy</item>
+        <item>Paste</item>
+        <item>Move</item>
+        <item>Rename</item>
+        <item>Delete</item>
+        <item>Set as Default Folder</item>
+    </string-array>
+
+    <string-array name="folder_view_move_active_context_menu_items">
+        <item>Play Folder</item>
+        <item>Play Folder Recursively</item>
+        <item>Copy</item>
+        <item>Paste</item>
+        <item>Move Here</item>
+        <item>Rename</item>
+        <item>Delete</item>
+        <item>Set as Default Folder</item>
+    </string-array>
+
+    <string name="folder_actions">Folder Actions</string>
+
+    <string-array name="file_view_context_menu_items">
+        <item>Play File</item>
+        <item>Copy</item>
+        <item>Move</item>
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string name="file_actions">File Actions</string>
+    <string name="folder_list_item_type">folder_list_item_type</string>
+    <string name="folder_path">folder_path</string>
+    <string name="no_audio_files_found">No audio files found.</string>
+    <string name="play_folder_recursive">Play Folder (Recursive)</string>
+    <string name="scanning_for_files">Scanning for audio files:</string>
+    <string name="source_dir_invalid">The source directory is invalid.</string>
+    <string name="destination_location_invalid">The destination location is invalid.</string>
+    <string name="source_file_could_not_be_read">The source file could not be read.</string>
+    <string name="file_could_not_be_written_new_location">The file(s) could not be written to the new location.</string>
+    <string name="copy_instructions">To finish this copy operation, long press the destination folder and tap \"Paste\".</string>
+    <string name="copy">Copy</string>
+    <string name="copy_here">Copy Here</string>
+    <string name="done_copy">Done copying file(s).</string>
+    <string name="done_move">Done moving file(s).</string>
+    <string name="copying_file">Copying file.</string>
+    <string name="no_file_copied">You must copy a file or directory to use the Paste operation.</string>
+    <string name="source_target_same">The source and destination folders are the same.</string>
+    <string name="delete_file_confirmation">Are you sure you want to delete this file? This operation cannot be undone.</string>
+    <string name="delete_folder_confirmation">Are you sure you want to delete this folder? This operation cannot be undone.</string>
+    <string name="move">Move</string>
+    <string name="moving_file">Moving file.</string>
+    <string name="move_instructions">To finish this move operation, long press the destination folder and tap \"Move Here\".</string>
+    <string name="deleting_files">Deleting file(s).</string>
+    <string name="file_deleted">File deleted.</string>
+    <string name="file_could_not_be_deleted">The file could not be deleted.</string>
+    <string name="folder_deleted">Folder deleted.</string>
+    <string name="folder_could_not_be_deleted">The folder could not be deleted.</string>
+    <string name="could_not_play_file">Could not play audio file. Try rescanning your library.</string>
+    <string name="rename">Rename</string>
+    <string name="file_name">File Name</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="file_could_not_be_renamed">The file could not be renamed.</string>
+    <string name="file_renamed">File renamed.</string>
+    <string name="folder_could_not_be_renamed">The folder could not be renamed.</string>
+    <string name="folder_renamed">Folder renamed.</string>
+    <string name="enter_a_name_for_file">You must enter a file name.</string>
+    <string name="enter_a_name_for_folder">You must enter a folder name.</string>
+    <string name="blacklist_manager">Blacklist Manager</string>
+    <string name="unblacklist_all">Unblacklist All</string>
+    <string name="blacklisted_artists">Blacklisted Artists</string>
+    <string name="blacklisted_albums">Blacklisted Albums</string>
+    <string name="blacklisted_songs">Blacklisted Songs</string>
+    <string name="blacklisted_playlists">Blacklisted Playlists</string>
+    <string name="blacklist_manager_info">To remove an item from the blacklist, fling it away in either direction.</string>
+    <string name="no_blacklisted_items_found">No blacklisted items found.</string>
+    <string name="use_embedded_album_art">Use Embedded Album Art</string>
+    <string name="use_folder_album_art">Use Folder Album Art</string>
+    <string name="scan_download_album_art">Scan and Download Album Art</string>
+    <string name="scanning_for_missing_art">Scanning for Missing Album Art</string>
+    <string name="downloading_album_art">Downloading Missing Album Art</string>
+    <string name="downloading_artwork_for">Downloading album art for</string>
+    <string name="done_downloading_art">Done downloading album art.</string>
+    <string name="checking_if">Checking if </string>
+    <string name="has_album_art">has album art.</string>
+    <string name="processing_folders">Processing Folders</string>
+    <string name="beta_version_expire_in">You are using the BETA version of Jams Music Player. It will expire in</string>
+    <string name="days_remaining_caps">DAYS REMAINING</string>
+    <string name="beta_has_expired">Jams Music Player BETA has expired. </string>
+    <string name="title_activity_blacklist_manager">Blacklist Manager</string>
+    <string name="item_removed_from_blacklist">Item removed from blacklist.</string>
+    <string name="beta_trial_dummy_info">This expiry counter will reset itself when you install an update to the BETA. You\'ll also still get the regular 10 day trial when the final version is released.</string>
+    <string name="processing">Processing</string>
+    <string name="no_embedded_lyrics_found">No embedded lyrics found.</string>
+    <string name="scanning_subfolders">Scanning Subfolders</string>
+    <string name="scanning_subfolders_message">Scanning for subfolders in</string>
+    <string name="back_to_parent_directory">Back to Parent Folder</string>
+    <string name="current_directory">Current Folder:</string>
+    <string name="no_folders_selected">You must select at least one music folder to continue.</string>
+    <string name="select_folders_info_message">To add a music folder to your library, check its corresponding checkbox on the left.</string>
+    <string name="bluetooth_headphones">Bluetooth &amp; Headphones</string>
+    <string name="bluetooth_controls">Bluetooth Controls</string>
+    <string name="playlist_doesnt_have_any_songs">This playlist doesn\'t have any songs.</string>
+    <string name="genre_doesnt_have_any_songs">This genre doesn\'t have any songs.</string>
+    <string name="got_google_play_music">Got Google Play Music?</string>
+    <string name="got_google_play_music_text_1">Do you store your music in the cloud? Tap \'Yes\' to import your library from Google Play. Jams will only stream your songs to your device. It will not download them and none of your music on Google Play will be modified.</string>
+    <string name="got_google_play_music_text_2">NOTE: Jams will access your music on Google Play through an unofficial API. This means that Google does not support this app and you may lose access to your music from Jams at any time . Keep in mind that your actual music on Google Play will always stay intact and that Jams will never modify your playlists or music without your permission.</string>
+    <string name="enter_google_play_credentials">Please enter the username and password for your Google Play Music account. This information will be stored on your device and used to access your songs and playlists.</string>
+    <string name="username">example@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="authentication">Authentication</string>
+    <string name="select_google_account">Select Google Play Music Account</string>
+    <string name="unknown_error_google_music">Unable to sign into Google Play Music. Check your network connection.</string>
+    <string name="contacting_google_play_music">Contacting Google Play Music</string>
+    <string name="authenitcating_as">Authenticating as</string>
+    <string name="choose_google_play_music_account">Choose Your Google Play Music Account</string>
+    <string name="google_play_music">谷歌音乐播放器</string>
+    <string name="downloading_songs_info_from_google_play_music">Downloading song metadata from Google Play Music.</string>
+    <string name="downloading_playlists_info_from_google_play_music">Downloading playlists metadata from Google Play Music.</string>
+    <string name="sign_in_google_play_music">Sign in to Google Play Music</string>
+    <string name="signing_in_to_google_play_music">Signing in to Google Play Music.</string>
+    <string name="getting_google_play_music_library">Getting Google Play Music.</string>
+    <string name="checking_if_google_play_music_installed">Checking if Google Play Music is installed.</string>
+    <string name="syncing_with_google_play_music">Syncing with Google Play Music</string>
+    <string name="song_source">song_source</string>
+    <string name="artist_art_path">artist_art_path</string>
+    <string name="song_id">song_id</string>
+    <string name="signing_in">Signing in</string>
+    <string name="signing_in_dot_dot_dot">Signing in...</string>
+    <string name="done_downloading_song">Done downloading song(s).</string>
+    <string name="downloading_song">Downloading Song</string>
+    <string name="downloading">Downloading</string>
+    <string name="done_downloading">Done downloading</string>
+    <string name="starting_download">Starting download.</string>
+    <string name="failed_to_download_song">Failed to download song.</string>
+    <string name="long_press_to_select_folder">Long press on the folder where you want to save the downloaded song.</string>
+    <string name="select_folder">Select Folder</string>
+    <string name="select_file_name">Type in a file name for the downloaded song. Jams will automatically embed album art and song metadata into the downloaded file.</string>
+    <string name="downloading_no_dot">Keeping</string>
+    <string name="setting_song_tags">Setting artwork and song metadata.</string>
+    <string name="finishing_download">Finishing Download</string>
+    <string name="song_failed_to_load">Song failed to load.</string>
+    <string name="playlist_source">playlist_source</string>
+    <string name="playlist_id">playlist_id</string>
+    <string name="select_folders_instructions">Select the folder(s) that contain your music by checking the checkboxes on the left. Tapping on a folder will display the folder\'s contents.</string>
+    <string name="scan_frequency_instructions">Pick how often you want your library to be rescanned for new music. You can always manually rescan from the app too.</string>
+    <string name="scan_every_startup">Scan at every startup</string>
+    <string name="scan_every_3_startups">Scan every 3 startups</string>
+    <string name="scan_every_5_startups">Scan every 5 startups</string>
+    <string name="scan_every_10_startups">Scan every 10 startups</string>
+    <string name="scan_every_20_startups">Scan every 20 startups</string>
+    <string name="scan_manually">Scan manually</string>
+    <string name="google_play_music_instructions">Duo音乐Palyer可以将您的谷歌音乐文件添加到您的设备，但是您必须安装官方谷歌播放音乐应用程序使用此功能。</string>
+    <string name="dont_use_google_play_music">不使用谷歌音乐播放器</string>
+    <string name="ready_to_scan">Ready to Scan</string>
+    <string name="ready_to_scan_instructions">Duo音乐Palyer 现在将建立您的音乐库,专辑封面。在此过程中可以随时关闭应用程序。</string>
+    <string name="swipe_left_to_continue">继续向左滑动。</string>
+    <string name="signed_in_as">Signed in as</string>
+    <string name="google_play_music_disclaimer">谷歌既不支持也不赞同Duo音乐Palyer使用谷歌播放音乐服务。Duo音乐Player将访问你的音乐库使用非官方的api。</string>
+    <string name="genres">流派</string>
+    <string name="tip">Tip</string>
+    <string name="prompt_user_install_google_play_music">You must install the official Google Play Music app before you can stream your music with Jams. Do you want to install it now?</string>
+    <string name="not_now">Not Now</string>
+    <string name="prompt_user_set_up_google_play_music">Have you set up your selected account in the official Google  Music app? Doing so will enable Jams to seamlessly sync your music from the cloud. If you choose not to set up the official Google Play Music app, you will have to manually sync your music every time you update your library. </string>
+    <string name="set_up_already">I\'ve set it up already</string>
+    <string name="sync_manually">I\'ll sync manually</string>
+    <string name="let_me_check">让我选择</string>
+    <string name="scanning_for_album_art">Getting Album Art</string>
+    <string name="preferred_album_art">艺术专辑</string>
+    <string name="prefer_embedded_art">Prefer embedded art</string>
+    <string name="prefer_folder_art">Prefer folder art</string>
+    <string name="use_embedded_art_only">只使用嵌入式艺术</string>
+    <string name="use_folder_art_only">只使用折叠的艺术</string>
+    <string name="preferred_album_art_instructions">选择您喜欢的专辑封面。如果您不确定,选择第一个选项。您可以更改这些选项在设置里。</string>
+    <string name="browsers_caps">BROWSERS</string>
+    <string name="libraries_caps">LIBRARIES</string>
+    <string name="my_library">My Library</string>
+    <string name="all_libraries">全部音乐</string>
+    <string name="adding_music_folders">Adding Music Folders</string>
+    <string name="library_name">library_name</string>
+    <string name="library_color_code">library_color_code</string>
+    <string name="google_play_music_no_asterisk">谷歌音乐播放器</string>
+    <string name="preparing_to_build_library">Preparing to build library</string>
+    <string name="done_building_music_library">Done Building Music Library</string>
+    <string name="google_play_music_account">Google Play Music Account</string>
+    <string name="google_play_music_enabled">Google Play Music enabled.</string>
+    <string name="google_play_music_disabled">Google Play Music disabled.</string>
+    <string name="music_libraries">Custom Libraries</string>
+    <string name="add_music_library">Create Custom Library</string>
+    <string name="edit_music_library">Edit Custom Library</string>
+    <string name="delete_music_library">Delete Custom Library</string>
+    <string name="music_library_name">Custom Library Name</string>
+    <string name="add_songs_to_music_library">Add Songs to Custom Library</string>
+    <string name="music_library_editor">Custom Library Editor</string>
+    <string name="add_music">Add Music</string>
+    <string name="select_all">Select All</string>
+    <string name="add_music_library_instructions">Enter a name and select a label for your new custom library.</string>
+    <string name="music_library_label">Custom Library Label</string>
+
+    <string-array name="library_labels">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Light Blue</item>
+        <item>Green</item>
+        <item>Light Green</item>
+        <item>Purple</item>
+        <item>Light Purple</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>White</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string name="artists_music_library_editor_instructions">Tap an artist to add their songs to this custom library.</string>
+    <string name="songs_music_library_editor_instructions">Tap a song to add it to this custom library.</string>
+    <string name="albums_music_library_editor_instructions">Tap an album to add its songs to this custom library.</string>
+    <string name="done_creating_library">Custom library created.</string>
+    <string name="deleted">Deleted</string>
+    <string name="no_music_libraries_found">No custom libraries found.</string>
+    <string name="getting_blacklisted_songs">Getting blacklisted songs.</string>
+    <string name="blacklisting_selected_songs">Blacklisting selected songs.</string>
+    <string name="blacklist_manager_artists_instructions">Tap on an artist to blacklist them (highlighted) or remove them from the blacklist (unhighlighted).</string>
+    <string name="blacklist_manager_albums_instructions">Tap on an album to blacklist it (highlighted) or remove it from the blacklist (unhighlighted).</string>
+    <string name="blacklist_manager_songs_instructions">Tap on a song to blacklist it (highlighted) or remove it from the blacklist (unhighlighted).</string>
+    <string name="done_updating_blacklists">Done updating blacklists.</string>
+    <string name="updating_blacklists">Updating blacklists.</string>
+    <string name="fetching_blacklists">Fetching blacklists.</string>
+    <string name="audio_settings">音频设置</string>
+    <string name="headphones_unplug_action">Headphones Unplug Action</string>
+    <string name="crossfade_tracks">Crossfade Tracks</string>
+    <string name="current_queue">当前列表</string>
+    <string name="close_other_audio_apps">Close any other apps that may be playing audio.</string>
+    <string name="unable_to_stream_song">Error streaming song.</string>
+
+    <string-array name="genre_context_menu_items">
+        <item>Add to Queue</item>
+        <item>Add to Playlist</item>
+        <item>Blacklist Genre</item>
+    </string-array>
+
+    <string name="genre_actions">Genre Actions</string>
+    <string name="unable_to_reorder_song">Unable to reorder song.</string>
+    <string name="no_music_playing">No music playing.</string>
+    <string name="google_play_music_disabled_info">Google Play Music is disabled. You can enable it in Settings.</string>
+    <string name="no_songs_found_info">No songs found. You can configure your music folders in Settings.</string>
+    <string name="no_artists_found_info">No artists found. You can configure your music folders in Settings.</string>
+    <string name="no_albums_found_info">No albums found. You can configure your music folders in Settings.</string>
+    <string name="no_album_artists_found_info">No album artists found. You can configure your music folders in Settings.</string>
+    <string name="no_genres_found_info">No genres found. You can configure your music folders in Settings.</string>
+    <string name="this_folder_is_empty">This folder is empty.</string>
+    <string name="song_tags_saved">Song tags saved.</string>
+    <string name="edit_google_play_music_tags_unsupported">Jams doesn\'t support tag editing for songs on Google Play Music, yet. This feature will be added in a future update.</string>
+    <string name="no_albums_found_try_another_library">No albums found. Try selecting another library.</string>
+    <string name="no_songs_found_try_another_library">No songs found. Try selecting another library.</string>
+    <string name="no_genres_found_try_another_library">No genres found. Try selecting another library.</string>
+    <string name="download_failed_to_initialize">Download failed to initialize.</string>
+    <string name="pinned_songs_removed">Pinned song(s) removed.</string>
+    <string name="removing_pinned_songs">Removing pinned song(s).</string>
+    <string name="unknown_year">Unknown year</string>
+    <string name="repeat_song_range_instructions">Drag the scrubbers to select the part of the song you would like to repeat.</string>
+    <string name="repeat_song_range">Repeat Song Range</string>
+    <string name="repeat">Repeat</string>
+    <string name="unable_to_remove_song_from_playlist">Unable to remove song from playlist.</string>
+    <string name="tracks">Tracks:</string>
+    <string name="saving_album_info">Saving Album Info</string>
+    <string name="saving_song_info">Saving Song Info</string>
+    <string name="saving_song_info_for">Saving song info for</string>
+    <string name="rebuild_music_library">Rebuild Music Library</string>
+    <string name="music_library">音乐库</string>
+    <string name="playlist_type">播放列表类型</string>
+    <string name="new_local_playlist">新建本地播放列表</string>
+    <string name="new_google_play_music_playlist">New Google Play Music Playlist</string>
+    <string name="existing_local_playlists">Existing Local Playlists</string>
+    <string name="existing_google_play_music_playlists">Existing Google Play Music Playlists</string>
+
+    <string-array name="new_existing_array">
+        <item>新建播放列表</item>
+        <item>现有的播放列表</item>
+    </string-array>
+
+    <string name="local_playlist">Local Playlist</string>
+    <string name="google_play_music_playlist">Google Play Music Playlist</string>
+    <string name="cannot_add_gmusic_to_local_playlist_artist">All songs by this artist are stored on your Google Play Music account and cannot be added to a local playlist. Try creating a Google Play Music playlist instead.</string>
+    <string name="cannot_add_gmusic_to_local_playlist_album">All songs in this album are stored on your Google Play Music account and cannot be added to a local playlist. Try creating a Google Play Music playlist instead.</string>
+    <string name="cannot_add_gmusic_to_local_playlist_song">This song is stored on your Google Play Music account and cannot be added to a local playlist. Try creating a Google Play Music playlist instead.</string>
+    <string name="cannot_add_gmusic_to_local_playlist_genre">All songs in this genre are stored on your Google Play Music account and cannot be added to a local playlist. Try creating a Google Play Music playlist instead.</string>
+    <string name="creating_playlist">Creating Playlist</string>
+    <string name="adding_songs">Adding Songs</string>
+    <string name="new_playlist_caps">NEW PLAYLIST</string>
+    <string name="existing_playlists_caps">EXISTING PLAYLISTS</string>
+    <string name="new_playlist">New Playlist</string>
+    <string name="song_could_not_be_reordered">Song could not be reordered.</string>
+    <string name="song_could_not_be_removed_playlist">Song could not be removed from playlist.</string>
+    <string name="title_activity_main_helper">MainHelperActivity</string>
+    <string name="swipe_right_open_nav_drawer">Swipe right to open the navigation drawer.</string>
+    <string name="custom_libraries_help_overlay_text">Libraries allow you to group your music into smaller subcollections. Think about them as playlists on steroids. You can manage custom libraries in Settings.\n\nTouch to dismiss.</string>
+    <string name="tap_to_dismiss">Tap to dismiss.</string>
+    <string name="libraries">Libraries</string>
+    <string name="album_artists">Album Artists</string>
+    <string name="search_album_artists">Search Album Artists</string>
+    <string name="all_songs_local">All songs in this group are already stored on this device.</string>
+    <string name="album_art_downloaded">Album art downloaded.</string>
+    <string name="getting_album_art_toast">Getting album art...</string>
+    <string name="unable_to_get_album_art">Unable to get album art. Check your network connection.</string>
+    <string name="trial_expired">Thanks for using Jams Music Player. Your 7 day trial has expired. To remove this time limit, please upgrade to the full version of Jams. \n\nIf you have already purchased Jams and are still seeing this message, make sure you are signed into the Google account you made the purchase with. Still need help? Give us a yell at jamsmusicplayer@gmail.com.</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="trial_running">You are currently using the trial version of Jams. Upgrading to the full version will remove the trial time limit. \n\nIf you have already purchased Jams and are still seeing this message, make sure you are signed into the Google account you made the purchase with. Still need help? Head over to Settings > Contact Us.</string>
+    <string name="later">Later</string>
+    <string name="expired">Expired</string>
+    <string name="jams_trial_time_removed">Thanks for purchasing Jams! Your trial time limit has been removed.</string>
+    <string name="unable_to_purchase">Oops! There was an issue with the purchase. Please try again later.</string>
+    <string name="unable_to_reach_google_play">Unable to reach Google Play. Please try again.</string>
+    <string name="upgrade_to_full_version">Upgrade to Full Version</string>
+    <string name="repeat_helper_text">Press and hold the repeat button to open the Repeat Song Range dialog.</string>
+    <string name="change_tracks_helper">Swipe in either direction to change tracks.</string>
+    <string name="lyrics_rating_title">Lyrics and Rating</string>
+    <string name="lyrics_helper">Press and hold the album art to display the song\'s rating and embedded lyrics.</string>
+    <string name="changing_tracks">Changing Tracks</string>
+    <string name="changing_tracks_info">Swipe left or right to change tracks. You can also peek at the next or previous track without changing the current track.</string>
+    <string name="got_it">确定</string>
+    <string name="okay">Okay</string>
+    <string name="get_pinned_songs">Get Pinned Songs from Official Google Music App</string>
+    <string name="gmusic_app_not_installed_pin">The official Google Play Music app is not installed.</string>
+    <string name="wait_until_pinning_complete">Please wait until other songs have finished being pinned.</string>
+    <string name="getting_pinned_songs">Getting pinned songs from the Google Play Music app.</string>
+    <string name="done_pinning_songs_from_gmusic">Done getting all pinned songs from Google Play Music.</string>
+    <string name="done_pinning_songs">Done pinning song(s).</string>
+    <string name="playback_will_resume_after_pinning">Music playback will start after the requested songs are finished being pinned.</string>
+    <string name="equalizer">均衡器</string>
+    <string name="equalizer_disabled">The equalizer is disabled. You can enable it in Settings.</string>
+    <string name="play">Play</string>
+    <string name="add_to">Add to...</string>
+    <string name="resetting_blacklist">Resetting blacklist.</string>
+    <string name="reset_blacklist">Reset Blacklist</string>
+    <string name="blacklist_reset">Blacklist reset.</string>
+    <string name="scrobbling">关闭</string>
+    <string name="unable_to_get_audio_focus">Unable to gain audio focus. Close any other audio apps and try again.</string>
+    <string name="applying_equalizer">Applying equalizer...</string>
+    <string name="track_change_animation">Track Change Animation</string>
+    <string name="track_change_animation_info">Pick the animation to display when you swipe tracks in the player screen.</string>
+    <string name="slide_away">Slide Away</string>
+    <string name="zoom_out_and_slide_away">Zoom Out and Slide Away</string>
+    <string name="depth_transformer">Depth Transformer</string>
+    <string name="default_folder_for_folders_view">Default Folder for Folders View</string>
+    <string name="default_folder_for_folders_view_info">To set the default (starting) folder for Folders view, go to Folders view, long press on a folder and tap \"Set as Default Folder\".</string>
+    <string name="set_as_default_folder">Set as Default Folder</string>
+    <string name="default_folder_does_not_exist">You default folder does not exist. Falling back to root.</string>
+    <string name="is_now_default_folder">is now your default folder for Folders view.</string>
+    <string name="htc_devices">HTC Devices</string>
+    <string name="htc_devices_equalizer_issue">If you are using an HTC device and your volume controls are stuck at max, go to Settings > Equalizer and tap \"Disable\". This is a known issue with the API and is currently being fixed by Google.</string>
+    <string name="jams_is_building_library">Jams is building your library.</string>
+    <string name="jams_is_building_library_info">Feel free to close the app during this process. Swipe down your notification drawer at any time to check the current progress.</string>
+    <string name="jams_is_caching_artwork">Jams is caching album art.</string>
+    <string name="on_this_device">On This Device</string>
+    <string name="go_to_this_artist">前往这个艺术家</string>
+    <string name="go_to_this_album">前往这张专辑</string>
+    <string name="go_to_this_genre">前往这个流派</string>
+    <string name="go_to_this_album_artist">前往这张专辑的艺术家</string>
+    <string name="default_browser">默认浏览项</string>
+    <string name="artists_layout">艺术家的布局</string>
+    <string name="album_artists_layout">艺术家专辑的布局</string>
+    <string name="albums_layout">专辑的布局</string>
+
+    <string-array name="startup_screen_items">
+        <item>艺术家</item>
+        <item>艺术家的专辑</item>
+        <item>专辑</item>
+        <item>歌曲</item>
+        <item>播放列表</item>
+        <item>流派</item>
+        <item>文件夹</item>
+    </string-array>
+    <string-array name="layout_preference_items">
+        <item>网格</item>
+        <item>列表</item>
+    </string-array>
+
+    <string name="queue_is_empty">无正在播放的音乐。</string>
+    <string name="size_colon">大小:</string>
+    <string name="items_colon">项目:</string>
+    <string name="last_modified_colon">最后修改:</string>
+    <string name="free_space_colon">自由空间:</string>
+    <string name="position">position</string>
+    <string name="delete_playlist">删除播放列表</string>
+    <string name="saving_artist_info">保存艺术家信息</string>
+    <string name="widgets">Widgets</string>
+    <string name="transparent_widget_background">Transparent Widget Background</string>
+    <string name="create_playlist">创建播放列表</string>
+    <string name="playlist_modified">修改播放列表。</string>
+    <string name="playlist_could_not_be_modified">播放列表不能被修改。</string>
+    <string name="show_embedded_lyrics">显示歌词</string>
+    <string name="play_next">播放下一首歌</string>
+    <string name="will_be_played_next">will be played next.</string>
+    <string name="the_top_25_played_tracks">The top 25 played tracks</string>
+    <string name="the_most_recently_added_songs">The most recently added songs</string>
+    <string name="the_top_rated_songs">The top rated songs</string>
+    <string name="the_most_recently_played_songs">The most recently played_songs</string>
+    <string name="save_current_position">保存当前位置</string>
+    <string name="track_will_resume_from">This track will resume from</string>
+    <string name="next_time_you_play_it">the next time you play it.</string>
+    <string name="unable_to_save_playback_position">Unable to save playback position.</string>
+    <string name="resuming_from">Resuming from</string>
+    <string name="discard_saved_position">Discard saved position.</string>
+    <string name="clear_saved_position">Clear saved position</string>
+    <string name="track_start_from_beginning_next_time_play">这个主题会在下次重新启动使用</string>
+    <string name="app_full_name">Duo音乐Player</string>
+    <string name="dashclock_description">显示当前的跟踪信息。</string>
+    <string name="show_lockscreen_controls">显示屏幕锁控制</string>
+    <string name="show_lockscreen_controls_description">切换屏幕回放控制。</string>
+    <string name="lockscreen_controls_disabled_next_run">音乐锁屏控制将被禁用在您下次开始播放音乐。</string>
+    <string name="show_more">Show more</string>
+    <string name="special_offer">Special Offer!</string>
+    <string name="im_in">I\'m in!</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="fb_app_id">431718623626519</string>
+    <string name="days_remaining">days remaining.</string>
+    <string name="day_remaining">day remaining.</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="promo_upgrade_winner">Congratulations! You\'ve won 50% off the upgrade price! Tap \"Upgrade\" to continue.</string>
+    <string name="promo_upgrade_didnt_win">Sorry, you didn\'t win this time. You can still upgrade to the full version though. Tap \"Upgrade\" to continue.</string>
+    <string name="aw_snap">Aw snap.</string>
+    <string name="you_won">You won!</string>
+    <string name="just_a_sec">Just a sec...</string>
+    <string name="facebook_not_installed">You must have the Facebook app installed to participate in this promotion.</string>
+    <string name="couldnt_share_fb">Oops, your Facebook share post didn\'t go through. Please try again later.</string>
+    <string name="thanks_for_sharing">Thanks for sharing! Enjoy your 30% off.</string>
+    <string name="special_offer_details" formatted="false">Share Jams Music Player on Facebook and get 30% off your upgrade price!\n \nJust sign in to Facebook, share Jams with your friends using the Facebook Share dialog, and you\'ll instantly get the 30% discount applied to your purchase.</string>
+    <string name="shuffle_all">Shuffle all</string>
+    <string name="no_songs_to_play">No songs to play.</string>
+    <string name="crossfade_duration">Crossfade Duration</string>
+    <string name="select_widget_color">Select widget color</string>
+    <string name="current_queue_helper">Swipe in from the right bezel on any screen to access the list of songs that are currently being played. You can also access playback controls and the player screen from this drawer.</string>
+    <string name="no_songs_to_select">No songs to select.</string>
+    <string name="unable_to_edit_song_tags">Unable to edit song tags.</string>
+    <string name="unable_to_edit_artist_tags">Unable to edit artist tags.</string>
+    <string name="unable_to_edit_album_tags">Unable to edit album tags.</string>
+    <string name="resume_last_queue">Resume Last Queue</string>
+    <string name="resuming_last_queue">Resuming last queue.</string>
+    <string name="shuffle_all_caps">SHUFFLE ALL</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="unable_to_start_playback">Unable to start playback.</string>
+    <string name="unknown_artist">Unknown Artist</string>
+    <string name="unknown_album">Unknown Album</string>
+    <string name="unknown_title">Unknown Title</string>
+    <string name="unknown_genre">Unknown Genre</string>
+    <string name="unknown_album_artist">Unknown Album Artist</string>
+    <string name="get_all_songs_device">得到所有音乐设备</string>
+    <string name="let_me_pick_folders">让我选我的音乐文件夹</string>
+    <string name="pick_whats_best_for_me">选择最好的给我</string>
+    <string name="building_album_art">建立专辑封面</string>
+    <string name="no_songs_to_skip_to">No more songs to skip to.</string>
+    <string name="eq_applied_to_current_song">Equalizer applied to current song.</string>
+    <string name="reset_all_caps">重置所有</string>
+    <string name="eq_reset">重置均衡器。</string>
+    <string name="go_to">前往</string>
+    <string name="hide_lyrics">隐藏的歌词</string>
+    <string name="title_text">titleText</string>
+    <string name="source">source</string>
+    <string name="file_path">filePath</string>
+    <string name="field_1">field1</string>
+    <string name="field_2">field2</string>
+    <string name="field_3">field3</string>
+    <string name="field_4">field4</string>
+    <string name="field_5">field5</string>
+    <string name="title_activity_horizontal_list_sub">HorizontalListSubActivity</string>
+    <string name="horiz_list_sub_activity">HorizListSubActivity</string>
+    <string name="queue_empty_info">列表为空</string>
+    <string name="play_all_caps">全部播放</string>
+    <string name="a_b_repeat">a - b重复</string>
+    <string name="music_library_colon">音乐库： </string>
+    <string name="album_small">album</string>
+    <string name="song_small">song</string>
+    <string name="albums_small">albums</string>
+    <string name="songs_small">songs</string>
+    <string name="title_activity_browser_sub">BrowserSubActivity</string>
+    <string name="title_activity_browsser_sub_grid">BrowsserSubGridActivity</string>
+    <string name="finished_scanning_album_art">完成了专辑封面扫描。</string>
+    <string name="scanning_for_album_art_details">Duo音乐Palyer将在后台继续扫描专辑封面,这个过程完成时会通知您一次。</string>
+    <string name="up">Up</string>
+    <string name="add">Add</string>
+    <string name="cant_play_this_file">Can\'t play this file.</string>
+    <string name="cant_copy_this_file_folder">Can\'t copy this file/folder.</string>
+    <string name="paste_here">Paste Here</string>
+    <string name="copy_canceled">Copy operation cancelled.</string>
+    <string name="move_canceled">Move operation cancelled.</string>
+    <string name="up_to_parent_dir">到上一文件夹</string>
+    <string name="appearance">外观</string>
+    <string name="layouts">布局</string>
+    <string name="appearance_description">改变应用程序的主题,颜色,等等。</string>
+    <string name="layouts_description">在浏览器列表和网格视图之间切换。</string>
+    <string name="folders_description">自定义文件夹视图,显示隐藏文件,默认文件夹。</string>
+    <string name="music_folders_description">重建你的音乐库和改变选定的音乐文件夹。</string>
+    <string name="gmusic_description">改变你的Google帐户设置播放音乐。</string>
+    <string name="custom_libraries">Custom Libraries</string>
+    <string name="labels_description">添加、删除和编辑您的自定义标签。</string>
+    <string name="album_art_description">修改专辑封面来源和从互联网下载专辑封面。</string>
+    <string name="blacklists_description">修改黑名单艺术家、专辑和歌曲。</string>
+    <string name="audio_settings_description">配置淡入淡出,耳机插头行动和均衡器切换。</string>
+    <string name="scrobbling_description">关闭自动切换和选择你关闭应用程序。</string>
+    <string name="about_description">关于应用的开放源码许可和联系信息</string>
+    <string name="labels">标签</string>
+    <string name="dark">黑色调</string>
+    <string name="light">白色调</string>
+    <string name="app_theme_description">选择一个夜间或者白天的主题。</string>
+    <string name="colors_description">选择一个配色方案在您所选择的主题。</string>
+    <string name="default_browser_description">选择显示在应用程序启动时的默认浏览器。</string>
+    <string name="genres_layout">布局的类型</string>
+    <string name="playlists_layout">播放列表的布局</string>
+    <string name="folders_layout">文件夹布局</string>
+    <string name="select_music_folders">选择音乐文件夹</string>
+    <string name="refresh_music_library">更新音乐库</string>
+
+</resources>
